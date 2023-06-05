@@ -1,0 +1,137 @@
+[
+  {
+    "id": "1",
+    "name": "baby hat ",
+    "description": "knit wool",
+    "price": "$9.00",
+    "image": "",
+    "department": "kid",
+    "isFeatured": true
+  },
+  {
+    "id": "2",
+    "name": " socks",
+    "description": "white 6 pack",
+    "price": "$4.00",
+    "image": "",
+    "department": "kid",
+    "isFeatured": true
+  },
+  {
+    "id": "3",
+    "name": " shorts",
+    "description": "pink flamingos",
+    "price": "$14.00",
+    "image": "",
+    "department": "kid",
+    "isFeatured": false
+  },
+  {
+    "id": "4",
+    "name": " shirt",
+    "description": "blue short sleeve",
+    "price": "$5.90",
+    "image": "",
+    "department": "kid",
+    "isFeatured": false
+  },
+  {
+    "id": "5",
+    "name": " hat ",
+    "description": "knit wool",
+    "price": "$4.00",
+    "image": "",
+    "department": "kid",
+    "isFeatured": false
+  },
+  {
+    "id": "6",
+    "name": " socks",
+    "description": "white 6 pack",
+    "price": "$6.00",
+    "image": "",
+    "department": "kid",
+    "isFeatured": false
+  },
+  {
+    "id": "7",
+    "name": " shorts",
+    "description": "khaki",
+    "price": "$45.00",
+    "image": "",
+    "department": "men",
+    "isFeatured": false
+  },
+  {
+    "id": "8",
+    "name": "button up shirt",
+    "description": "blue shirt with short sleeve",
+    "price": "$57.40",
+    "image": "",
+    "department": "men",
+    "isFeatured": false
+  },
+  {
+    "id": "9",
+    "name": " hat ",
+    "description": "knit wool",
+    "price": "$19.00",
+    "image": "",
+    "department": "men",
+    "isFeatured": false
+  },
+  {
+    "id": "10",
+    "name": " socks",
+    "description": "white 6 pack",
+    "price": "$4.00",
+    "image": "",
+    "department": "men",
+    "isFeatured": true
+  },
+  {
+    "id": "11",
+    "name": " pants",
+    "description": "jean denim",
+    "price": "$4.00",
+    "image": "",
+    "department": "women",
+    "isFeatured": true
+  },
+  {
+    "id": "12",
+    "name": "purse",
+    "description": "leather with beads",
+    "price": "$45.00",
+    "image": "",
+    "department": "women",
+    "isFeatured": false
+  },
+  {
+    "id": "13",
+    "name": " socks",
+    "description": "white 6 pack",
+    "price": "$8.00",
+    "image": "",
+    "department": "women",
+    "isFeatured": true
+  },
+  {
+    "id": "14",
+    "name": "dress",
+    "description": "ruffle yellow linen",
+    "price": "$174.00",
+    "image": "",
+    "department": "women",
+    "isFeatured": false
+  },
+  {
+    "id": "15",
+    "name": "coat",
+    "description": " rain coat silk sleeve",
+    "price": "$588.90",
+    "image": "",
+    "department": "women",
+    "isFeatured": true
+  }
+]
