@@ -1,15 +1,19 @@
 import Button from "react-bootstrap/Button";
+import { Link } from "react-router-dom";
 import Card from "react-bootstrap/Card";
-
-function ItemCard({ description, name, image }) {
+function ItemCard({ item }) {
   return (
     <Card style={{ width: "18rem" }}>
-      <Card.Img variant="top" src={image} />
+      {item.image && <Card.Img variant="top" src={item.image} />}
       <Card.Body>
-        <Card.Title>{name}</Card.Title>
-        <Card.Text>{description}</Card.Text>
+        {item.name && <Card.Title>Name : {item.name}</Card.Title>}
+        {item.description && (
+          <Card.Text>Description : {item.description}</Card.Text>
+        )}
 
-        <Button variant="primary">Go somewhere</Button>
+        <Link to={`/product/${item.id}`} variant="primary">
+          View Product
+        </Link>
       </Card.Body>
     </Card>
   );

@@ -6,6 +6,12 @@ export default function useProducts() {
       return department === item.department;
     });
   };
+  const getSaleProducts = () => {
+    return allProducts.filter((item) => {
+      return item.isOnSale;
+    });
+  };
+
   const getFeaturedProducts = () => {
     return allProducts.filter((item) => {
       return item.isFeatured;
@@ -14,5 +20,16 @@ export default function useProducts() {
   const getAllProducts = () => {
     return allProducts;
   };
-  return { getProductsByDepartment, getFeaturedProducts, getAllProducts };
+  const getProductById = (id) => {
+    return allProducts.filter((item) => {
+      return id === item.id;
+    })[0];
+  };
+  return {
+    getProductsByDepartment,
+    getFeaturedProducts,
+    getAllProducts,
+    getSaleProducts,
+    getProductById,
+  };
 }
