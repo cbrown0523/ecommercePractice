@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
+                         <div>
     <NavbarBootstrap bg="light" expand="lg">
       <Container fluid>
         <NavbarBootstrap.Brand href="#">ShopIt</NavbarBootstrap.Brand>
@@ -32,7 +33,7 @@ function Navbar() {
           </Form>
         </NavbarBootstrap.Collapse>
       </Container>
-    </NavbarBootstrap>
+    </NavbarBootstrap></div>
   );
 }
 

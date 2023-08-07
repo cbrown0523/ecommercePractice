@@ -11,6 +11,7 @@ function Children() {
   return (
     <div className="p-5">
       <ItemList featuredClothes={data} />
+      {<h1></h1>}
     </div>
   );
 }
