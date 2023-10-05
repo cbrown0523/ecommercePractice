@@ -18,8 +18,8 @@ function Sale() {
 
   return (
     <div className="p-5">
-     <Button onClick={() => setData(()=>sortByPriceDescending((data)))} variant="primary">Sort Descending</Button>
-     <Button onClick={() => setData(()=>sortByPriceAscending((data)))} variant="primary">Sort Ascending</Button>
+     <Button onClick={() => setData(()=>sortByPriceDescending([...data]))} variant="primary">Sort Descending</Button>
+     <Button onClick={() => setData(()=>sortByPriceAscending([...data]))} variant="primary">Sort Ascending</Button>
     <Button variant="primary">Sort Department</Button>
     <Button variant="primary">Sort Name</Button>
       <ItemList featuredClothes={data} />
